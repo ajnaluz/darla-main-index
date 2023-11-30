@@ -1,0 +1,49 @@
+body, button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  background-color: #6a0dad;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header-title {
+  font-size: 2em;
+  margin: 0;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(2, 50px);
+  gap: 20px;
+}
+
+.custom-button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #6a0dad; /* Purple button color */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-family: 'Poppins', sans-serif; /* Poppins font for the button */
+}
+
+.custom-button:hover {
+  background-color: #4d0a82; /* Darker purple on hover */
+}
